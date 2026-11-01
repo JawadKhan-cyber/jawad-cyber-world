@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jawad Cyber World</title>
 
     <style>
@@ -90,7 +90,38 @@ footer p {
         font-size: 16px;
         padding: 12px 20px;
     }
-}        
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.skill-card {
+    background-color: #1e293b;
+    border: 1px solid #38bdf8;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.skill-card h3 {
+    color: #38bdf8;
+    font-size: 22px;
+}
+
+.skill-card p {
+    color: white;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    background-color: #334155;
+}
 </style>
 </head>
 
@@ -110,11 +141,28 @@ footer p {
     <p>Learn, Create and Stay Secure!</p>
 </section>
 <section>
+    
     <h2>My Skills</h2>
 
-    <p>HTML - Website Structure</p>
-    <p>CSS - Website Design</p>
-    <p>JavaScript - Website Functionality</p>
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Website Structure</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Website Design</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Website Functionality</p>
+        </div>
+
+    </div>
+
 </section>
 <a href="https://wa.me/923213312707?text=Assalam-o-Alaikum%2C%20mujhe%20aap%20se%20rabta%20karna%20hai" class="contact-btn" target="_blank">Contact Me</a>
     <h2>Assalam-o-Alaikum!</h2>
